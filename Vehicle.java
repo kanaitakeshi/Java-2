@@ -1,4 +1,4 @@
-// Vehicleクラスを抽象クラスに変更してください
+// Vehicleクラスを抽象クラスに変更
 abstract class Vehicle {
   private String name;
   private String color;
@@ -30,7 +30,7 @@ abstract class Vehicle {
     System.out.println("走行距離：" + this.distance + "km");
   }
   
-  // 抽象メソッドrunを定義してください
+  // 抽象メソッドrunを定義
   public abstract void run(int distance);
   
 }
